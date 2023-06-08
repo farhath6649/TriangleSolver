@@ -18,12 +18,12 @@ namespace TriangleTest
         {
             [Test]
 
-            public void EquilateralTriangle_Input70and70and70_OutputTriangle()
+            public void EquilateralTriangle_Input60and60and60_OutputTriangle()
             {
                 //Arrange
-                int firstAngle = 70;
-                int secondAngle = 70;
-                int thirdAngle = 70;
+                int firstAngle = 60;
+                int secondAngle = 60;
+                int thirdAngle = 60;
 
                 string expected = "An EQUILATERAL triangle is formed";
                 
