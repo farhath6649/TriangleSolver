@@ -39,7 +39,7 @@ namespace TriangleTest
             public void IsoscelesTriangle_Input70and60and60_OutputTriangle()
             {
                 //Arrange
-                int firstAngle = 70;
+                int firstAngle = 80;
                 int secondAngle = 60;
                 int thirdAngle = 60;
 
