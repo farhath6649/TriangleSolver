@@ -207,12 +207,12 @@ namespace TriangleTest
 
             }
             [Test]
-            public void InValidTriangle_Input0and0and0_OutputTriangle()
+            public void InValidTriangle_Input0and0and10_OutputTriangle()
             {
                 //Arrange
                 int firstAngle = 0;
                 int secondAngle = 0;
-                int thirdAngle = 0;
+                int thirdAngle = 10;
 
                 string expected = "Invalid Triangle - at least one side is zero";
 
@@ -225,12 +225,12 @@ namespace TriangleTest
 
             }
             [Test]
-            public void InValidTriangle_Input0and0and60_OutputTriangle()
+            public void InValidTriangle_Input0and0and0_OutputTriangle()
             {
                 //Arrange
                 int firstAngle = 0;
                 int secondAngle = 0;
-                int thirdAngle = 60;
+                int thirdAngle = 0;
 
                 string expected = "Invalid Triangle - at least one side is zero";
 
