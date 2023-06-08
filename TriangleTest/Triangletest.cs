@@ -243,12 +243,12 @@ namespace TriangleTest
 
             }
             [Test]
-            public void INVALIDTriangle_Input10and20and60_OutputTriangle()
+            public void INVALIDTriangle_Input10and20and600_OutputTriangle()
             {
                 //Arrange
                 int firstAngle = 10;
                 int secondAngle = 20;
-                int thirdAngle = 60;
+                int thirdAngle = 600;
 
                 string expected = "INVALID Triangle detected!!";
 
@@ -279,11 +279,11 @@ namespace TriangleTest
 
             }
             [Test]
-            public void INVALIDTriangle_Input10and20and30_OutputTriangle()
+            public void INVALIDTriangle_Input10and200and30_OutputTriangle()
             {
                 //Arrange
                 int firstAngle = 10;
-                int secondAngle = 20;
+                int secondAngle = 200;
                 int thirdAngle = 30;
 
                 string expected = "INVALID Triangle detected!!";
