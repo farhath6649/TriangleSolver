@@ -90,12 +90,12 @@ namespace TriangleTest
 
             }
             [Test]
-            public void ScaleneTriangle_Input80and70and30_OutputTriangle()
+            public void ScaleneTriangle_Input70and40and50_OutputTriangle()
             {
                 //Arrange
-                int firstAngle = 80;
-                int secondAngle = 70;
-                int thirdAngle = 30;
+                int firstAngle = 70;
+                int secondAngle = 40;
+                int thirdAngle = 50;
 
                 string expected = "A SCALENE triangle is formed";
 
@@ -110,10 +110,10 @@ namespace TriangleTest
 
             [Test]
             
-            public void ScaleneTriangle_Input20and50and60_OutputTriangle()
+            public void ScaleneTriangle_Input70and50and60_OutputTriangle()
             {
                 //Arrange
-                int firstAngle = 20;
+                int firstAngle = 70;
                 int secondAngle = 50;
                 int thirdAngle = 60;
 
@@ -128,12 +128,12 @@ namespace TriangleTest
 
             }
             [Test]
-            public void ScaleneTriangle_Input40and70and50_OutputTriangle()
+            public void ScaleneTriangle_Input80and40and60_OutputTriangle()
             {
                 //Arrange
-                int firstAngle = 40;
-                int secondAngle = 70;
-                int thirdAngle = 50;
+                int firstAngle = 80;
+                int secondAngle = 40;
+                int thirdAngle = 60;
 
                 string expected = "A SCALENE triangle is formed";
 
